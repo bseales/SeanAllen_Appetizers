@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		BE6FB2082A3946BA00D3F4BF /* SeanAllen_AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB2072A3946BA00D3F4BF /* SeanAllen_AppetizersApp.swift */; };
-		BE6FB20A2A3946BA00D3F4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB2092A3946BA00D3F4BF /* ContentView.swift */; };
+		BE6FB20A2A3946BA00D3F4BF /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB2092A3946BA00D3F4BF /* AppetizerTabView.swift */; };
 		BE6FB20C2A3946BB00D3F4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6FB20B2A3946BB00D3F4BF /* Assets.xcassets */; };
 		BE6FB20F2A3946BB00D3F4BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6FB20E2A3946BB00D3F4BF /* Preview Assets.xcassets */; };
+		BE6FB2162A39477C00D3F4BF /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB2152A39477C00D3F4BF /* AppetizerListView.swift */; };
+		BE6FB2182A39478800D3F4BF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB2172A39478800D3F4BF /* AccountView.swift */; };
+		BE6FB21A2A39479700D3F4BF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB2192A39479700D3F4BF /* OrderView.swift */; };
+		BE6FB21C2A3951EB00D3F4BF /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB21B2A3951EB00D3F4BF /* Appetizer.swift */; };
+		BE6FB21E2A395ACA00D3F4BF /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB21D2A395ACA00D3F4BF /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE6FB2042A3946BA00D3F4BF /* SeanAllen_Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeanAllen_Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6FB2072A3946BA00D3F4BF /* SeanAllen_AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanAllen_AppetizersApp.swift; sourceTree = "<group>"; };
-		BE6FB2092A3946BA00D3F4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE6FB2092A3946BA00D3F4BF /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		BE6FB20B2A3946BB00D3F4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE6FB20E2A3946BB00D3F4BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE6FB2152A39477C00D3F4BF /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		BE6FB2172A39478800D3F4BF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		BE6FB2192A39479700D3F4BF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		BE6FB21B2A3951EB00D3F4BF /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		BE6FB21D2A395ACA00D3F4BF /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		BE6FB2062A3946BA00D3F4BF /* SeanAllen_Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				BE6FB2172A39478800D3F4BF /* AccountView.swift */,
+				BE6FB21B2A3951EB00D3F4BF /* Appetizer.swift */,
+				BE6FB21D2A395ACA00D3F4BF /* AppetizerListCell.swift */,
+				BE6FB2152A39477C00D3F4BF /* AppetizerListView.swift */,
+				BE6FB2092A3946BA00D3F4BF /* AppetizerTabView.swift */,
+				BE6FB2192A39479700D3F4BF /* OrderView.swift */,
 				BE6FB2072A3946BA00D3F4BF /* SeanAllen_AppetizersApp.swift */,
-				BE6FB2092A3946BA00D3F4BF /* ContentView.swift */,
 				BE6FB20B2A3946BB00D3F4BF /* Assets.xcassets */,
 				BE6FB20D2A3946BB00D3F4BF /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6FB20A2A3946BA00D3F4BF /* ContentView.swift in Sources */,
+				BE6FB21C2A3951EB00D3F4BF /* Appetizer.swift in Sources */,
+				BE6FB21E2A395ACA00D3F4BF /* AppetizerListCell.swift in Sources */,
+				BE6FB2182A39478800D3F4BF /* AccountView.swift in Sources */,
+				BE6FB20A2A3946BA00D3F4BF /* AppetizerTabView.swift in Sources */,
 				BE6FB2082A3946BA00D3F4BF /* SeanAllen_AppetizersApp.swift in Sources */,
+				BE6FB2162A39477C00D3F4BF /* AppetizerListView.swift in Sources */,
+				BE6FB21A2A39479700D3F4BF /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
