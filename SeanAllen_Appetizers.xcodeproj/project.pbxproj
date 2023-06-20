@@ -104,37 +104,37 @@
 			isa = PBXGroup;
 			children = (
 				BE6FB2092A3946BA00D3F4BF /* AppetizerTabView.swift */,
-				BE6FB22E2A3BD6C300D3F4BF /* AppetizerListView */,
-				BE6FB22F2A3BD6CD00D3F4BF /* AccountView */,
-				BE6FB2302A3BD6D300D3F4BF /* OrderView */,
+				BE6FB22E2A3BD6C300D3F4BF /* AppetizerList */,
+				BE6FB22F2A3BD6CD00D3F4BF /* Account */,
+				BE6FB2302A3BD6D300D3F4BF /* Order */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		BE6FB22E2A3BD6C300D3F4BF /* AppetizerListView */ = {
+		BE6FB22E2A3BD6C300D3F4BF /* AppetizerList */ = {
 			isa = PBXGroup;
 			children = (
 				BE6FB2152A39477C00D3F4BF /* AppetizerListView.swift */,
 				BE6FB2232A3A91C900D3F4BF /* AppetizerListViewModel.swift */,
 				BE6FB23A2A3BEAAF00D3F4BF /* AppetizerDetailView.swift */,
 			);
-			path = AppetizerListView;
+			path = AppetizerList;
 			sourceTree = "<group>";
 		};
-		BE6FB22F2A3BD6CD00D3F4BF /* AccountView */ = {
+		BE6FB22F2A3BD6CD00D3F4BF /* Account */ = {
 			isa = PBXGroup;
 			children = (
 				BE6FB2172A39478800D3F4BF /* AccountView.swift */,
 			);
-			path = AccountView;
+			path = Account;
 			sourceTree = "<group>";
 		};
-		BE6FB2302A3BD6D300D3F4BF /* OrderView */ = {
+		BE6FB2302A3BD6D300D3F4BF /* Order */ = {
 			isa = PBXGroup;
 			children = (
 				BE6FB2192A39479700D3F4BF /* OrderView.swift */,
 			);
-			path = OrderView;
+			path = Order;
 			sourceTree = "<group>";
 		};
 		BE6FB2312A3BD71B00D3F4BF /* Utilities */ = {
