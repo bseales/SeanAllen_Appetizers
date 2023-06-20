@@ -28,6 +28,7 @@
 		BE6FB2422A4130BC00D3F4BF /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB2412A4130BC00D3F4BF /* XDismissButton.swift */; };
 		BE78F1402A4144340039F46B /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F13F2A4144340039F46B /* AccountViewModel.swift */; };
 		BE78F1422A4147E60039F46B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F1412A4147E60039F46B /* String+Ext.swift */; };
+		BE78F1442A4150A70039F46B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F1432A4150A70039F46B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		BE6FB2412A4130BC00D3F4BF /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		BE78F13F2A4144340039F46B /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		BE78F1412A4147E60039F46B /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "../../../../../../../../Downloads/String+Ext.swift"; sourceTree = "<group>"; };
+		BE78F1432A4150A70039F46B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				BE6FB21B2A3951EB00D3F4BF /* Appetizer.swift */,
+				BE78F1432A4150A70039F46B /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				BE6FB2242A3A91C900D3F4BF /* AppetizerListViewModel.swift in Sources */,
 				BE6FB22A2A3A9FB700D3F4BF /* Color+Ext.swift in Sources */,
 				BE6FB2182A39478800D3F4BF /* AccountView.swift in Sources */,
+				BE78F1442A4150A70039F46B /* User.swift in Sources */,
 				BE6FB2402A412F2000D3F4BF /* APButton.swift in Sources */,
 				BE6FB2282A3A9EE900D3F4BF /* LoadingView.swift in Sources */,
 				BE6FB20A2A3946BA00D3F4BF /* AppetizerTabView.swift in Sources */,
