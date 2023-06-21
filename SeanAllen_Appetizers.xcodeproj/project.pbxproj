@@ -29,6 +29,7 @@
 		BE78F1402A4144340039F46B /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F13F2A4144340039F46B /* AccountViewModel.swift */; };
 		BE78F1442A4150A70039F46B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F1432A4150A70039F46B /* User.swift */; };
 		BE78F1462A4156B60039F46B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F1452A4156B60039F46B /* String+Ext.swift */; };
+		BE78F1492A427D7B0039F46B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F1482A427D7B0039F46B /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		BE78F13F2A4144340039F46B /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		BE78F1432A4150A70039F46B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BE78F1452A4156B60039F46B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		BE78F1482A427D7B0039F46B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		BE6FB2362A3BD77E00D3F4BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE78F1472A427D6E0039F46B /* Empty States */,
 				BE6FB23E2A412F0900D3F4BF /* Buttons */,
 				BE6FB2392A3BD78D00D3F4BF /* Image */,
 				BE6FB2382A3BD78900D3F4BF /* Cells */,
@@ -231,6 +234,14 @@
 				BE6FB2412A4130BC00D3F4BF /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		BE78F1472A427D6E0039F46B /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				BE78F1482A427D7B0039F46B /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +329,7 @@
 				BE6FB2202A3A2D2700D3F4BF /* NetworkManager.swift in Sources */,
 				BE6FB22C2A3AB8A100D3F4BF /* RemoteImage.swift in Sources */,
 				BE6FB23B2A3BEAAF00D3F4BF /* AppetizerDetailView.swift in Sources */,
+				BE78F1492A427D7B0039F46B /* EmptyState.swift in Sources */,
 				BE6FB2082A3946BA00D3F4BF /* SeanAllen_AppetizersApp.swift in Sources */,
 				BE6FB2262A3A958E00D3F4BF /* Alert.swift in Sources */,
 				BE6FB2162A39477C00D3F4BF /* AppetizerListView.swift in Sources */,
