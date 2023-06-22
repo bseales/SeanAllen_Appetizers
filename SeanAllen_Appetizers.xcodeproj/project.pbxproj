@@ -31,6 +31,7 @@
 		BE78F1462A4156B60039F46B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F1452A4156B60039F46B /* String+Ext.swift */; };
 		BE78F1492A427D7B0039F46B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F1482A427D7B0039F46B /* EmptyState.swift */; };
 		BE78F14B2A42882D0039F46B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE78F14A2A42882D0039F46B /* Order.swift */; };
+		BEB9A28D2A44FF2A00D3218D /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB9A28C2A44FF2A00D3218D /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		BE78F1452A4156B60039F46B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		BE78F1482A427D7B0039F46B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		BE78F14A2A42882D0039F46B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		BEB9A28C2A44FF2A00D3218D /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				BE6FB2392A3BD78D00D3F4BF /* Image */,
 				BE6FB2382A3BD78900D3F4BF /* Cells */,
 				BE6FB2372A3BD78300D3F4BF /* UIKit */,
+				BEB9A28C2A44FF2A00D3218D /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				BE6FB2082A3946BA00D3F4BF /* SeanAllen_AppetizersApp.swift in Sources */,
 				BE6FB2262A3A958E00D3F4BF /* Alert.swift in Sources */,
 				BE6FB2162A39477C00D3F4BF /* AppetizerListView.swift in Sources */,
+				BEB9A28D2A44FF2A00D3218D /* CustomModifiers.swift in Sources */,
 				BE78F1462A4156B60039F46B /* String+Ext.swift in Sources */,
 				BE6FB21A2A39479700D3F4BF /* OrderView.swift in Sources */,
 			);

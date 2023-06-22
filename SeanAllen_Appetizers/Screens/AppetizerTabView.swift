@@ -8,27 +8,25 @@
 import SwiftUI
 
 struct AppetizerTabView: View {
+    @EnvironmentObject var order: Order
+    
     var body: some View {
         TabView {
-            AppetizerListView().tabItem {
-                Image(systemName: "house")
-                Text("Home")
-            }
-            AccountView().tabItem {
-                Image(systemName: "person")
-                Text("Account")
-            }
-            OrderView().tabItem {
-                Image(systemName: "bag")
-                Text("Order")
-            }
+            AppetizerListView()
+                .tabItem { Label("Home", systemImage: "house") }
+            AccountView()
+                .tabItem { Label("Account", systemImage: "person") }
+            OrderView()
+                .tabItem { Label("Order", systemImage: "bag") }
+                .badge(order.items.count)
         }
-        .tint(.brandPrimary)
+
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AppetizerTabView_Previews: PreviewProvider {
     static var previews: some View {
         AppetizerTabView()
+            .environmentObject(Order())
     }
 }
